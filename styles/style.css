@@ -1,3 +1,4 @@
+/* shared style */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,11 +16,12 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
-
+/* nav style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 230px;
 
 }
 
@@ -43,4 +45,13 @@ nav a {
     color: var(--Dark-02, #474747);
     font-size: 20px;
     font-weight: 400;
+}
+/* header style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 230px;
+    display: flex;
+    align-items: center;
 }
