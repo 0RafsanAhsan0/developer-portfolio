@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 
@@ -50,7 +50,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--Dark-02, #474747);
+    color:#474747;
     font-size: 20px;
     font-weight: 400;
 }
@@ -58,9 +58,9 @@ nav a {
 /* header style */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 
 .banner {
@@ -68,10 +68,6 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../images/developer.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 90px;
 }
 
 .banner-content {
@@ -80,14 +76,14 @@ nav a {
 }
 
 .banner-greeting {
-    color: var(--Dark-02, #474747);
+    color:#474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0px;
 }
 
 .banner-title {
-    color: var(--Dark-02, #474747);
+    color:#474747;
     font-size: 45px;
     font-weight: 600;
     margin-top: 5px;
@@ -95,7 +91,7 @@ nav a {
 }
 
 .banner-text {
-    color: var(--Dark-03, #757575);
+    color:#757575;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
