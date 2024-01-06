@@ -112,6 +112,7 @@ main {
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .section-description {
@@ -142,4 +143,12 @@ main {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+/* what i do style */
+#i-do-text{
+    padding: 30px 150px;
+}
+.skill{
+   
+    
 }
