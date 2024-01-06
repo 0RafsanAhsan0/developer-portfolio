@@ -50,7 +50,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
     font-size: 20px;
     font-weight: 400;
 }
@@ -76,14 +76,14 @@ nav a {
 }
 
 .banner-greeting {
-    color:#474747;
+    color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0px;
 }
 
 .banner-title {
-    color:#474747;
+    color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-top: 5px;
@@ -91,7 +91,7 @@ nav a {
 }
 
 .banner-text {
-    color:#757575;
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -187,34 +187,42 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
-.resume-info{
+
+.resume-info {
     padding-top: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 40px;
 }
+
 /* footer style */
-footer{
+footer {
     display: flex;
     gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 130px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
+
 .footer-column a {
     margin-left: 25px;
-    
+
 }
-.message-form input[type="text"], .message-form input[type="email"], textarea{
+
+.message-form input[type="text"],
+.message-form input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     border: 0;
-    color:#757575;
+    color: #757575;
     border-radius: 5px;
     background-color: white;
     width: 100%;
