@@ -227,3 +227,70 @@ textarea {
     background-color: white;
     width: 100%;
 }
+
+/* responsive */
+/* mobile device */
+@media screen and (max-width:576px) {
+
+    .header {
+        background-image: none;
+    }
+
+    nav {
+        margin: 0 auto;
+    }
+
+    .banner img {
+        width: 100%;
+
+    }
+
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #i-do-text {
+        padding: 20px;
+    }
+
+    .resume-container,
+    footer,
+    nav,
+    .banner,
+    .nav-list {
+        flex-direction: column;
+    }
+
+    footer,
+    .banner {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .message-form input[type="text"],
+    .message-form input[type="email"],
+    textarea {
+        width: 70%;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+}
